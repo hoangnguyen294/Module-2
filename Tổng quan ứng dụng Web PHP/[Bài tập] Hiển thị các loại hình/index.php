@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ứng dụng Future Value Calculator</title>
+    <title>Hiển thị các loại hình</title>
     <link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
 
