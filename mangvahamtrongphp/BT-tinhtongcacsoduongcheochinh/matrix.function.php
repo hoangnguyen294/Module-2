@@ -1,11 +1,10 @@
 <?php 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $rows = $_POST['rows'];
-        $cols = $_POST['cols'];
+        $rows = $_POST['size'];
+        $cols = $_POST['size'];
         $matrix= GenerateMatrix($rows, $cols);
         $show= ShowMatrix($rows, $cols, $matrix);
         $find= findMax($rows, $cols, $matrix);
-        $result= "Max value is :" . $find;
     }
     function GenerateMatrix($row, $col){
         $matrix = array($row);
@@ -41,5 +40,8 @@
         }
         return $max;
     }
-   
-?>
+    function SumCrossLine($row, $col, $matrix){
+        for ($i=0; $i < $row ; $i++) { 
+            # code...
+        }
+    }
