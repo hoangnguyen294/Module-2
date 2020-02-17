@@ -24,7 +24,11 @@
             </div>
         </form>
         <div class="div1">
-            <h3>Show Matrix :<?php echo $show ?? null; ?> </h3>
+            <h3>Show Matrix :<?php 
+                                echo $show ?? null;
+                                echo SumCrossLine($rows, $cols, $matrix) ?? null;
+                            ?> 
+            </h3>
 
         </div>
     </div>

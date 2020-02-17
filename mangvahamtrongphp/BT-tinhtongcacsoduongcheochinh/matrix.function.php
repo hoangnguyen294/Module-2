@@ -41,7 +41,14 @@
         return $max;
     }
     function SumCrossLine($row, $col, $matrix){
+        $sum = $matrix[0][0];
         for ($i=0; $i < $row ; $i++) { 
-            # code...
+            for ($j=0; $j < $col ; $j++) { 
+                if ($i = $j) {
+                    $sum += $matrix[$i][$j]; 
+                }
+            }
         }
+        return $sum;
     }
+    
